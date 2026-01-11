@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-decision = pd.read_csv("../data/outputs/decision_summary.csv")
+decision = pd.read_csv("data/outputs/decision_summary.csv")
 
 st.title("🚨 Alerts & Warnings")
 

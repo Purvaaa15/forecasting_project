@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-inventory = pd.read_csv("../data/outputs/inventory_status.csv")
+inventory = pd.read_csv("data/outputs/inventory_status.csv")
 inventory["date"] = pd.to_datetime(inventory["date"])
 
 st.title("📦 Inventory Position")

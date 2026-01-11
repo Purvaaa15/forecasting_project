@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-forecast = pd.read_csv("../data/outputs/forecast.csv")
+forecast = pd.read_csv("data/outputs/forecast.csv")
 forecast["date"] = pd.to_datetime(forecast["date"])
 
 st.title("📈 Demand Forecast")
